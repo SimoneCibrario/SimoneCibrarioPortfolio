@@ -664,6 +664,17 @@ figure.snip1321 span {
     display: block;
     color: #3B1C32;
 }
+
+@media screen and (max-width: 768px) {
+    figure.snip1321 h4 {
+        font-size: 18px; /* Adjust the font size for smaller screens */
+    }
+    
+    figure.snip1321 span {
+        font-size: 12px; /* Adjust the font size for smaller screens */
+    }
+}
+
 figure.snip1321 i {
   position: relative!important;
   font-size: 18px;
