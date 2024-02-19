@@ -665,7 +665,7 @@ figure.snip1321 span {
     color: #3B1C32;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
     figure.snip1321 h4 {
         font-size: 12px; /* Adjust the font size for smaller screens */
     }
