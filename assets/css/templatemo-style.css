@@ -721,6 +721,7 @@ figure.snip1321:after {
   position: absolute;
   content: "";
   display: block;
+  border-radius: 5px;
   top: 20px;
   left: 20px;
   right: 20px;
