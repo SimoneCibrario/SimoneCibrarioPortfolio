@@ -324,11 +324,38 @@ html {
     margin: 10px auto;
 }
 
+
 .section-heading span {
     font-size: 18px;
     /* text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5); */
     color:#fff9ec;
     letter-spacing: 0.5px;
+}
+
+.highligthed-text {
+    font-family: "Urbanist", sans-serif;
+    font-size: 28px;
+    font-style: italic;
+    font-weight: 600;
+    color:#fff9ec;
+    letter-spacing: 0.5px;
+    margin-top: 20px; 
+    margin-bottom: 10px;
+}
+
+.highligthed-text2 {
+    -webkit-text-stroke: 2px #F72585; /* For WebKit (Safari, Chrome) */
+    text-stroke: 2px #F72585; /* Standard property */
+    text-align: center;
+    font-family: "Urbanist", sans-serif;
+    font-size: 44px;
+    font-style: italic;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0);
+    letter-spacing: 0.5px;
+    margin-right: 40px;
+    margin-top: 0px; 
+    margin-bottom: 40px;
 }
 
 .academic-work {
