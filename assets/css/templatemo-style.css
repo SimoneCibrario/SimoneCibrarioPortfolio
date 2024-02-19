@@ -634,7 +634,7 @@ section.my-work .section-heading {
     position: relative;
     width: 48%;
     margin: 1%;
-    /* border-bottom: 1px solid  #B6D7B9; */
+    border-bottom: 1px solid  #B6D7B9;
     padding-bottom: 30px;
     margin-bottom: 30px;
 }
