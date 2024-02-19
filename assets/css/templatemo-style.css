@@ -667,11 +667,11 @@ figure.snip1321 span {
 
 @media screen and (max-width: 768px) {
     figure.snip1321 h4 {
-        font-size: 18px; /* Adjust the font size for smaller screens */
+        font-size: 12px; /* Adjust the font size for smaller screens */
     }
     
     figure.snip1321 span {
-        font-size: 12px; /* Adjust the font size for smaller screens */
+        font-size: 6px; /* Adjust the font size for smaller screens */
     }
 }
 
