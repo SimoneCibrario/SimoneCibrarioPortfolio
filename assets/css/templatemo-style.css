@@ -694,6 +694,11 @@ figure.snip1321 span {
 }
 
 @media screen and (max-width: 768px) {
+    figure.snip1321 figcaption {
+        top: 10%;
+        left: 10px;
+        right: 10px;
+      }
     figure.snip1321 h4 {
         font-size: 18px; /* Adjust the font size for smaller screens */
     }
