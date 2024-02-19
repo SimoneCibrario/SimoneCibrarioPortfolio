@@ -665,16 +665,6 @@ figure.snip1321 span {
     color: #3B1C32;
 }
 
-@media screen and (max-width: 900px) {
-    figure.snip1321 h4 {
-        font-size: 12px; /* Adjust the font size for smaller screens */
-    }
-    
-    figure.snip1321 span {
-        font-size: 6px; /* Adjust the font size for smaller screens */
-    }
-}
-
 figure.snip1321 i {
   position: relative!important;
   font-size: 18px;
@@ -726,6 +716,16 @@ figure.snip1321.hover:after {
   -webkit-transform: rotateX(0);
   transform: rotateX(0);
   opacity: 0.9;
+}
+
+@media screen and (max-width: 768px) {
+    figure.snip1321 h4 {
+        font-size: 12px; /* Adjust the font size for smaller screens */
+    }
+    
+    figure.snip1321 span {
+        font-size: 6px; /* Adjust the font size for smaller screens */
+    }
 }
 
 
