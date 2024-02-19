@@ -375,7 +375,7 @@ html {
 
 .download-cv {
     display: inline-block;
-    padding: 12px 180px;
+    padding: 12px 100px;
     background-color: #F72585;
     color: #fff9ec;
     transition: background-color 0.3s ease;
