@@ -612,7 +612,7 @@ section.my-work .section-heading {
 }
 
 .isotope-box {
-    position: absolute;
+    position: relative;
     width: 100%;
 }
 
