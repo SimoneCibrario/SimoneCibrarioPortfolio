@@ -149,7 +149,7 @@ html {
 }
 
 .menu .author-content {
-    margin: 40px 0px 60px 0px;
+    margin: 20px 0px 40px 0px;
 }
 
 .menu .author-content h4 {
@@ -425,7 +425,7 @@ html {
 
 /*slideshow*/
 .slideshow-container {
-    max-width: 600px;
+    max-width: 1080px;
     position: relative;
     margin: auto;
     overflow: hidden;
@@ -439,7 +439,7 @@ html {
   }
 
   .slideshow-container img:hover {
-    transform: scale(1.1);
+    transform: scale(1.03);
   }
 
   .slideshow-container img.active {
@@ -452,10 +452,11 @@ html {
     bottom: 8px;
     width: 100%;
     text-align: center;
-    color: #f2f2f2;
-    font-size: 15px;
+    color: #fff9ec;
+    font-size: 16px;
+    font-weight: 500;
     padding: 8px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color:rgb(59, 28, 50, 0.7);
     opacity: 0;
     transition: opacity 0.5s ease;
   }
@@ -472,9 +473,9 @@ html {
     width: auto;
     margin-top: -22px;
     padding: 16px;
-    color: white;
+    color: rgb(195, 255, 185);
     font-weight: bold;
-    font-size: 20px;
+    font-size: 40px;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
   }
@@ -485,7 +486,7 @@ html {
   }
 
   .prev:hover, .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: #F72585;
   }
 
 
