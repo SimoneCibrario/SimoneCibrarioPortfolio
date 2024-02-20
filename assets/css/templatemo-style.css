@@ -423,6 +423,70 @@ html {
     color: #F72585;
 }
 
+/*slideshow*/
+.slideshow-container {
+    max-width: 600px;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .slideshow-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.5s ease;
+  }
+
+  .slideshow-container img:hover {
+    transform: scale(1.1);
+  }
+
+  .slideshow-container img.active {
+    display: block;
+  }
+
+  /* Caption text */
+  .caption {
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+
+  .slideshow-container:hover .caption {
+    opacity: 1;
+  }
+
+  /* Navigation buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+  }
+
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  .prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
 
 
 /* Buttons */

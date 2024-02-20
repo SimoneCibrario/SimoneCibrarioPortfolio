@@ -417,6 +417,17 @@ https://templatemo.com/tm-531-reflux
             </div>
           </div>
         </div>
+
+        <div class="slideshow-container">
+          <img class="slides active" src="assets/images/Artboard 1.jpg" alt="Image 1">
+          <div class="caption">Caption Text 1</div>
+          <img class="slides" src="assets/images/Artboard 2.jpg" alt="Image 2">
+          <div class="caption">Caption Text 2</div>
+          <img class="slides" src="assets/images/Artboard 3.jpg" alt="Image 3">
+          <div class="caption">Caption Text 3</div>
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
       </section>
 
       <!-- <section class="section contact-me" data-section="section4">
@@ -575,6 +586,48 @@ function toggleDetails(title) {
         details.style.display = "none"; // Hide the details if they are visible
     }
 }
+
+
+//carousel
+let slideIndex = 1;
+  let slideshowInterval;
+
+  showSlides(slideIndex);
+  startSlideshow();
+
+  function plusSlides(n) {
+    clearInterval(slideshowInterval);
+    showSlides(slideIndex += n);
+    startSlideshow();
+  }
+
+  function currentSlide(n) {
+    clearInterval(slideshowInterval);
+    showSlides(slideIndex = n);
+    startSlideshow();
+  }
+
+  function startSlideshow() {
+    slideshowInterval = setInterval(() => {
+      showSlides(slideIndex += 1);
+    }, 3000); // Change image every 3 seconds
+  }
+
+  function showSlides(n) {
+    let i;
+    const slides = document.getElementsByClassName("slides");
+    const captions = document.getElementsByClassName("caption");
+    if (n > slides.length) {slideIndex = 1}    
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+    }
+    for (i = 0; i < captions.length; i++) {
+        captions[i].style.display = "none";  
+    }
+    slides[slideIndex-1].style.display = "block";  
+    captions[slideIndex-1].style.display = "block";  
+  }
     </script>
   </body>
 </html>
